@@ -19,7 +19,7 @@ del div .hamburger-menu che voglio visualizzare */
 element.addEventListener('click',function(){
     div.style.display = "block";
     div.style.top = "70px"; /*per abbassare un po il div .hamburger-menu così da rendere comunque visibile l'header anche 
-                              quando compare il div .hamburger-menu.Notare che nel file css l'altezza dell'header è impostata ad 70px ed ecco perchè ho usato questo valore*/
+                              quando compare il div .hamburger-menu.Notare che nel file css l'altezza dell'header è impostata ad 70px ed ecco perchè ho usato questo valore*/                        
 }
 );
 
@@ -27,7 +27,6 @@ const a = document.querySelector('.hamburger-menu > a');
     a.addEventListener('click',function(){
     div.style.display = "none";
 });
-
 
 
 
